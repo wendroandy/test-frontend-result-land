@@ -1,0 +1,7 @@
+.listview {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap:wrap;
+  align-content:flex-start;
+}

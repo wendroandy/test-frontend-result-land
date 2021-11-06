@@ -1,0 +1,32 @@
+.card {
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+  flex-shrink: 0;
+  width: 200px;
+  margin: 8px;
+  text-align: left;
+  padding: 8px;
+  overflow-wrap: break-word;
+  display: flex;
+  flex-direction: column;
+  border-radius: 4px;
+  background: white;
+}
+.card div {
+  margin: 4px 0;
+  
+}
+.card >div:last-of-type {
+  margin-top: auto;
+}
+.name {
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+}
+.card iframe {
+  width:100%;
+  border: 0;
+}
+.card em {
+  font-size: 14px;
+}
